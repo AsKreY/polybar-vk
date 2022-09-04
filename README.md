@@ -11,7 +11,7 @@ __Nota bene__ Maybe your path to polybar folder is different than mine so you ne
 ## Configuration
 After installation you should open `vk_messages.py` and paste your access tokent into access_token variable
 ## Module
-```
+```ini
 [module/vk]
 type = custom/script
 exec = ~/.config/polybar/vk/vk_messages.py
